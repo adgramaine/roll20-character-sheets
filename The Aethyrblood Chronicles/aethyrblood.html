@@ -72,18 +72,25 @@
                                <div class="sheet-input-atribut"><input type="text" name="attr_Agility_base" style="width:40px" value="0"/>
                                </div><!-- end .sheet-input-atribut -->
                          </div><!-- end .sheet-attribut-3 --> 
-                        
+
+			<div class="sheet-attribut-2">
+                               <div class="sheet-lletra-horitzontal">Stamina: </div><!-- end .sheet-lletra-horitzontal -->
+                               <div class="sheet-input-atribut"><input type="text" name="attr_Stamina_base" style="width:40px" value="0"/>
+                               </div><!-- end .sheet-input-atribut -->    
+                         </div><!-- end .sheet-attribut-4 --> 
+                    </div><!-- end .sheet-centre100 -->
+			    
                          <div class="sheet-attribut-2">
                                <div class="sheet-lletra-horitzontal">Reflex: </div><!-- end .sheet-lletra-horitzontal -->
                                <div class="sheet-input-atribut"><input type="text" name="attr_reflex_base" style="width:40px" value="0"/>
                                </div><!-- end .sheet-input-atribut -->    
-                         </div><!-- end .sheet-attribut-4 --> 
+                         </div><!-- end .sheet-attribut-5 --> 
                         
                          <div class="sheet-attribut-2">
                                <div class="sheet-lletra-horitzontal">Health: </div><!-- end .sheet-lletra-horitzontal -->
                                <div class="sheet-input-atribut"><input type="text" name="attr_health_base" style="width:40px" value="0"/>
                                </div><!-- end .sheet-input-atribut -->    
-                         </div><!-- end .sheet-attribut-4 --> 
+                         </div><!-- end .sheet-attribut-6 --> 
                     </div><!-- end .sheet-centre100 -->  
     
         <div class="sheet-espai-10"></div><!-- end .sheet-espai-30 -->
@@ -116,14 +123,14 @@
                          </div><!-- end .sheet-attribut-2 --> 
                         
                          <div class="sheet-attribut-2">
-                               <div class="sheet-lletra-horitzontal">Reason: </div><!-- end .sheet-lletra-horitzontal -->
+                               <div class="sheet-lletra-horitzontal">Intelligence: </div><!-- end .sheet-lletra-horitzontal -->
                                <div class="sheet-input-atribut"><input type="text" name="attr_reason_base" style="width:40px" value="0"/>
                                </div><!-- end .sheet-input-atribut -->
                          </div><!-- end .sheet-attribut-3 --> 
                         
                          <div class="sheet-attribut-2">
-                               <div class="sheet-lletra-horitzontal">Awareness: </div><!-- end .sheet-lletra-horitzontal -->
-                               <div class="sheet-input-atribut"><input type="text" name="attr_awareness_base" style="width:40px" value="0"/>
+                               <div class="sheet-lletra-horitzontal">Ingenuity: </div><!-- end .sheet-lletra-horitzontal -->
+                               <div class="sheet-input-atribut"><input type="text" name="attr_ingenuity_base" style="width:40px" value="0"/>
                                </div><!-- end .sheet-input-atribut -->    
                          </div><!-- end .sheet-attribut-4 --> 
                         
@@ -131,9 +138,71 @@
                                <div class="sheet-lletra-horitzontal">Perception: </div><!-- end .sheet-lletra-horitzontal -->
                                <div class="sheet-input-atribut"><input type="text" name="attr_Perception_base" style="width:40px" value="0"/>
                                </div><!-- end .sheet-input-atribut -->    
-                         </div><!-- end .sheet-attribut-4 --> 
+                         </div><!-- end .sheet-attribut-5 --> 
                     </div><!-- end .sheet-centre100 --> 
+
+			<div class="sheet-attribut-2">
+                               <div class="sheet-lletra-horitzontal">Reason: </div><!-- end .sheet-lletra-horitzontal -->
+                               <div class="sheet-input-atribut"><input type="text" name="attr_Reason_base" style="width:40px" value="0"/>
+                               </div><!-- end .sheet-input-atribut -->    
+                         </div><!-- end .sheet-attribut-6 --> 
+                    </div><!-- end .sheet-centre100 -->
     
+        <div class="sheet-espai-10"></div><!-- end .sheet-espai-30 -->
+
+	<div class="sheet-centre100">
+                         <div class="sheet-attribut-1">
+                                <div class="sheet-titol-horitzontal3">SOCIAL</div><!-- end .sheet-titol-horitzontal3 -->
+                                <div class="sheet-input-atribut">
+                                    <select name="attr_social_pre" class="dtype" style="width:40px">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                    <select name="attr_social_dv" class="dtype" style="width:55px">
+                                         <option value="3">d3</option>
+                                        <option value="4">d4</option>
+                                        <option value="6">d6</option>
+                                        <option value="8">d8</option>
+                                        <option value="10">d10</option>
+                                        <option value="12">d12</option>
+                                    </select>
+                                    <input type="hidden" name="attr_social" value="(@{social_pre}d@{social_dv})">
+                                </div><!-- end .sheet-input-atribut -->    
+                         </div><!-- end .sheet-attribut-1 --> 
+                        
+                         <div class="sheet-attribut-2">
+                               <div class="sheet-lletra-horitzontal">Appearance: </div><!-- end .sheet-lletra-horitzontal -->
+                               <div class="sheet-input-atribut"><input type="text" name="attr_appearance_base" style="width:40px" value="0"/>
+                               </div><!-- end .sheet-input-atribut -->     
+                         </div><!-- end .sheet-attribut-2 --> 
+                        
+                         <div class="sheet-attribut-2">
+                               <div class="sheet-lletra-horitzontal">Charisma: </div><!-- end .sheet-lletra-horitzontal -->
+                               <div class="sheet-input-atribut"><input type="text" name="attr_charisma_base" style="width:40px" value="0"/>
+                               </div><!-- end .sheet-input-atribut -->
+                         </div><!-- end .sheet-attribut-3 --> 
+                        
+                         <div class="sheet-attribut-2">
+                               <div class="sheet-lletra-horitzontal">Manipulation: </div><!-- end .sheet-lletra-horitzontal -->
+                               <div class="sheet-input-atribut"><input type="text" name="attr_manipulation_base" style="width:40px" value="0"/>
+                               </div><!-- end .sheet-input-atribut -->    
+                         </div><!-- end .sheet-attribut-4 --> 
+                        
+                         <div class="sheet-attribut-2">
+                               <div class="sheet-lletra-horitzontal">Awareness: </div><!-- end .sheet-lletra-horitzontal -->
+                               <div class="sheet-input-atribut"><input type="text" name="attr_Awareness_base" style="width:40px" value="0"/>
+                               </div><!-- end .sheet-input-atribut -->    
+                         </div><!-- end .sheet-attribut-5 --> 
+                    </div><!-- end .sheet-centre100 --> 
+
+			<div class="sheet-attribut-2">
+                               <div class="sheet-lletra-horitzontal">Empathy: </div><!-- end .sheet-lletra-horitzontal -->
+                               <div class="sheet-input-atribut"><input type="text" name="attr_Empathy_base" style="width:40px" value="0"/>
+                               </div><!-- end .sheet-input-atribut -->    
+                         </div><!-- end .sheet-attribut-6 --> 
+                    </div><!-- end .sheet-centre100 -->
+	
         <div class="sheet-espai-10"></div><!-- end .sheet-espai-30 -->
     
                     <div class="sheet-centre100">
@@ -192,29 +261,43 @@
                 <div class="sheet-marge-left30"></div><!-- end .sheet-marge-left30 -->  
                       <div class="sheet-columna-trait-p"> 
                            <div class="sheet-lletra-trait">Aggression: </div><!-- end .sheet-lletra-trait -->
-                           <div class="sheet-input-trait"><input style="float:left; width:40px; margin: 0px 0px 0px 5px;" name="attr_aggression" value="([[((@{physique_pre}*(floor(@{physique_dv}/2)))+@{strength}+@{agility}+@{aggression_mod})]])" disabled="true"/>
+                           <div class="sheet-input-trait"><input style="float:left; width:20px; margin: 0px 0px 0px 5px;" name="attr_aggression" value="([[((@{physique_pre}*(floor(@{physique_dv}/2)))+@{strength}+@{agility}+@{aggression_mod})]])" disabled="true"/>
                            </div><!-- end .sheet-input-trait -->
                       </div><!-- end .sheet-columna-trait-p -->  
         
                       <div class="sheet-columna-trait"> 
                            <div class="sheet-lletra-trait">Vigour: </div><!-- end .sheet-lletra-trait -->
-                           <div class="sheet-input-trait"><input style="float:left; width:40px; margin: 0px 0px 0px 5px;" name="attr_vigour" value="([[((@{physique_pre}*(floor(@{physique_dv}/2)))+@{reflex}+@{health}+@{vigour_mod})]])" disabled="true"/>
+                           <div class="sheet-input-trait"><input style="float:left; width:20px; margin: 0px 0px 0px 5px;" name="attr_vigour" value="([[((@{physique_pre}*(floor(@{physique_dv}/2)))+@{reflex}+@{health}+@{vigour_mod})]])" disabled="true"/>
                            </div><!-- end .sheet-input-trait -->
                       </div><!-- end .sheet-columna-trait -->  
         
                       <div class="sheet-columna-trait-p"> 
                            <div class="sheet-lletra-trait">Education: </div><!-- end .sheet-lletra-trait -->
-                           <div class="sheet-input-trait"><input style="float:left; width:40px; margin: 0px 0px 0px 5px;" name="attr_education" value="([[((@{psyche_pre}*(floor(@{psyche_dv}/2)))+@{willpower}+@{reason}+@{education_mod})]])" disabled="true"/>
+                           <div class="sheet-input-trait"><input style="float:left; width:20px; margin: 0px 0px 0px 5px;" name="attr_education" value="([[((@{psyche_pre}*(floor(@{psyche_dv}/2)))+@{willpower}+@{reason}+@{education_mod})]])" disabled="true"/>
                            </div><!-- end .sheet-input-trait -->
                       </div><!-- end .sheet-columna-trait-p -->
                 
                       <div class="sheet-columna-trait"> 
                            <div class="sheet-lletra-trait">Adaptation: </div><!-- end .sheet-lletra-trait -->
-                           <div class="sheet-input-trait"><input type="text" style="float:left; width:40px; margin: 0px 0px 0px 5px;" name="attr_adaptation"><div class="sheet-barra-trait">/ </div><!-- end .sheet-barra-trait --><input style="float:left; width:40px; margin: 0px 0px 0px 5px;" name="attr_adaptation_max" value="([[((@{psyche_pre}*(floor(@{psyche_dv}/2)))+@{awareness}+@{perception}+@{adaptation_mod})]])" disabled="true"/>
+                           <div class="sheet-input-trait"><input type="text" style="float:left; width:20px; margin: 0px 0px 0px 5px;" name="attr_adaptation"><div class="sheet-barra-trait">/ </div><!-- end .sheet-barra-trait --><input style="float:left; width:40px; margin: 0px 0px 0px 5px;" name="attr_adaptation_max" value="([[((@{psyche_pre}*(floor(@{psyche_dv}/2)))+@{awareness}+@{perception}+@{adaptation_mod})]])" disabled="true"/>
                            </div><!-- end .sheet-input-trait -->
                       </div><!-- end .sheet-columna-trait -->
              </div><!-- end .sheet-centre100 -->
-    
+
+                      <div class="sheet-columna-trait"> 
+                           <div class="sheet-lletra-trait">Bearing: </div><!-- end .sheet-lletra-trait -->
+                           <div class="sheet-input-trait"><input type="text" style="float:left; width:20px; margin: 0px 0px 0px 5px;" name="attr_adaptation"><div class="sheet-barra-trait">/ </div><!-- end .sheet-barra-trait --><input style="float:left; width:40px; margin: 0px 0px 0px 5px;" name="attr_adaptation_max" value="([[((@{psyche_pre}*(floor(@{psyche_dv}/2)))+@{awareness}+@{perception}+@{adaptation_mod})]])" disabled="true"/>
+                           </div><!-- end .sheet-input-trait -->
+                      </div><!-- end .sheet-columna-trait -->
+             </div><!-- end .sheet-centre100 -->
+
+                      <div class="sheet-columna-trait"> 
+                           <div class="sheet-lletra-trait">Glamour: </div><!-- end .sheet-lletra-trait -->
+                           <div class="sheet-input-trait"><input type="text" style="float:left; width:20px; margin: 0px 0px 0px 5px;" name="attr_adaptation"><div class="sheet-barra-trait">/ </div><!-- end .sheet-barra-trait --><input style="float:left; width:40px; margin: 0px 0px 0px 5px;" name="attr_adaptation_max" value="([[((@{psyche_pre}*(floor(@{psyche_dv}/2)))+@{awareness}+@{perception}+@{adaptation_mod})]])" disabled="true"/>
+                           </div><!-- end .sheet-input-trait -->
+                      </div><!-- end .sheet-columna-trait -->
+             </div><!-- end .sheet-centre100 -->
+		
             <div class="sheet-centre100">
                   <div class="sheet-marge-left30"></div><!-- end .sheet-marge-left30 -->  
                       <div class="sheet-columna-trait-p"> 
